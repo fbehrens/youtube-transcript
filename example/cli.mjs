@@ -1,5 +1,2 @@
-import { YoutubeTranscript } from 'youtube-transcript';
-
-(async () => {
-    console.log(await YoutubeTranscript.fetchTranscript(process.argv[2]));
-})();
+import { YoutubeTranscript } from '../src/youtube-transcript';
+console.log(await YoutubeTranscript.fetchTranscript(Deno.args[0]));

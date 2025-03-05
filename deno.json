@@ -1,0 +1,6 @@
+{
+    "name": "@fbehrens/youtube-transcript",
+    "version": "1.0.0",
+    "exports": "./src/index.ts",
+    "license": "MIT"
+}
